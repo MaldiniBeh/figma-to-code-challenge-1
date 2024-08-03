@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -13,13 +13,7 @@
     <!-- Navigation -->
     <header class="flex justify-between items-center p-6">
       <img src="/images/logo-1.png" alt="Logo" class="w-10 h-10" />
-      <nav class="space-x-8">
-        <a href="#" class="font-herderTitle">Home</a>
-        <a href="#" class="font-herderTitle">Top sales</a>
-        <a href="#" class="font-herderTitle">Collections</a>
-        <a href="#" class="font-herderTitle">Our blog</a>
-        <a href="#" class="font-herderTitle">About us</a>
-      </nav>
+      <nav class="space-x-8" id="menu"></nav>
       <div class="flex space-x-4 items-center">
         <a href="#" class="font-herderTitle">Sign up</a>
         <div class="h-8 w-0.5 bg-black"></div>
@@ -65,127 +59,31 @@
       <div class="px-12">
         <h2 class="text-4xl font-releway-semi-base">Our Collections</h2>
         <div class="flex justify-between">
-            <div id="collections" class="flex space-x-4 mt-6">
-          <button
-            class="px-4 py-2 bg-black font-releway-semi-base text-white rounded-full"
-          >
-            All categories
-          </button>
-        </div> 
-        <a class="" href="#">View more</a>
+          <div id="collections" class="flex space-x-4 mt-6">
+            <button
+              class="px-4 py-2 bg-black font-releway-semi-base text-white rounded-full"
+            >
+              All categories
+            </button>
+            
+          </div>
+          <a class="mt-6" href="#">View more</a>
         </div>
-       
       </div>
 
       <div
         class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12 px-6"
-      >
-        <div class="border p-4 rounded-lg text-center">
-          <img
-            src="path-to-collection1.png"
-            alt="CyberPunk"
-            class="w-full h-40 object-cover rounded-md"
-          />
-          <h3 class="mt-4 text-xl font-bold">CyberPunk</h3>
-          <p class="text-gray-600">68</p>
-          <button class="mt-4 bg-black text-white px-4 py-2 rounded-full">
-            Place a Bid
-          </button>
-        </div>
-        <div class="border p-4 rounded-lg text-center">
-          <img
-            src="path-to-collection2.png"
-            alt="Durolast Boll - Upper"
-            class="w-full h-40 object-cover rounded-md"
-          />
-          <h3 class="mt-4 text-xl font-bold">Durolast Boll - Upper</h3>
-          <p class="text-gray-600">68</p>
-          <button class="mt-4 bg-black text-white px-4 py-2 rounded-full">
-            Place a Bid
-          </button>
-        </div>
-        <div class="border p-4 rounded-lg text-center">
-          <img
-            src="path-to-collection3.png"
-            alt="Space X Wiper"
-            class="w-full h-40 object-cover rounded-md"
-          />
-          <h3 class="mt-4 text-xl font-bold">Space X Wiper</h3>
-          <p class="text-gray-600">68</p>
-          <button class="mt-4 bg-black text-white px-4 py-2 rounded-full">
-            Place a Bid
-          </button>
-        </div>
-        <div class="border p-4 rounded-lg text-center">
-          <img
-            src="path-to-collection4.png"
-            alt="Snoop Dogg"
-            class="w-full h-40 object-cover rounded-md"
-          />
-          <h3 class="mt-4 text-xl font-bold">Snoop Dogg</h3>
-          <p class="text-gray-600">68</p>
-          <button class="mt-4 bg-black text-white px-4 py-2 rounded-full">
-            Place a Bid
-          </button>
-        </div>
-      </div>
+        id="cards"
+      ></div>
     </section>
 
     <!-- Create and Sell Section -->
     <section class="my-20">
-      <h2 class="text-4xl font-bold text-center">Create and Sell Now</h2>
+      <h2 class="text-4xl font-bold px-8">Create and Sell Now</h2>
       <div
+      id="wallet"
         class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12 px-6"
-      >
-        <div class="text-center p-6 border rounded-lg">
-          <img
-            src="path-to-icon1.png"
-            alt="Set up your wallet"
-            class="w-12 h-12 mx-auto"
-          />
-          <h3 class="mt-4 text-xl font-bold">Set up your wallet</h3>
-          <p class="text-gray-600 mt-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            vulputate libero et velit interdum, ac aliquet odio mattis.
-          </p>
-        </div>
-        <div class="text-center p-6 border rounded-lg">
-          <img
-            src="path-to-icon2.png"
-            alt="Add your NFT's"
-            class="w-12 h-12 mx-auto"
-          />
-          <h3 class="mt-4 text-xl font-bold">Add your NFT's</h3>
-          <p class="text-gray-600 mt-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            vulputate libero et velit interdum, ac aliquet odio mattis.
-          </p>
-        </div>
-        <div class="text-center p-6 border rounded-lg">
-          <img
-            src="path-to-icon3.png"
-            alt="Promote your NFT's"
-            class="w-12 h-12 mx-auto"
-          />
-          <h3 class="mt-4 text-xl font-bold">Promote your NFT's</h3>
-          <p class="text-gray-600 mt-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            vulputate libero et velit interdum, ac aliquet odio mattis.
-          </p>
-        </div>
-        <div class="text-center p-6 border rounded-lg">
-          <img
-            src="path-to-icon4.png"
-            alt="Sell your NFT's"
-            class="w-12 h-12 mx-auto"
-          />
-          <h3 class="mt-4 text-xl font-bold">Sell your NFT's</h3>
-          <p class="text-gray-600 mt-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            vulputate libero et velit interdum, ac aliquet odio mattis.
-          </p>
-        </div>
-      </div>
+      ></div>
     </section>
 
     <!-- Call to Action Section -->

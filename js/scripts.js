@@ -5,4 +5,7 @@ import Component from "./component.js";
     const components = Component
     const data = GlobalData
     $("#collections").append(components.collectionsBtn(data.collectionsBtn));
+    $("#menu").html(components.menu(data.menu));
+    $("#cards").html(components.card(data.categories));
+    $("#wallet").html(components.wallet(data.wallets));
 })(jQuery);
