@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url('/libs/fonts/Raleway-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }   
+   @font-face {
+    font-family: 'Raleway-SemiBold';
+    src: url('/libs/fonts/Raleway-SemiBold.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  } 
+ .font-herderTitle {
+  font-family: 'Raleway-SemiBold';
+  color: rgb(126, 122, 122);
+  &:hover {
+    color: rgb(70, 67, 67);
+  }
+ }
+.font-releway-semi-base {
+  font-family: 'Raleway-SemiBold';
+}
+.font-regular {
+  font-family: 'Raleway-Regular';
+  font-weight: 100;
+}

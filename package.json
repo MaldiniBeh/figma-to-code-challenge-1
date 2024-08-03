@@ -1,0 +1,22 @@
+{
+  "name": "figma-to-code-challenge-1",
+  "version": "1.0.0",
+  "author": "freddyBH",
+  "main": "js/scripts.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "gulp watch",
+    "go": "live-server"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "gulp": "^5.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.77.8"
+  }
+}
