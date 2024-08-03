@@ -24,3 +24,9 @@
   font-family: 'Raleway-Regular';
   font-weight: 100;
 }
+
+.bg-custom {
+  background-image: url(/images/bic.png); 
+  object-fit: contain;
+  object-position: center;
+}
