@@ -13,8 +13,8 @@
     <!-- Navigation -->
     <header class="flex justify-between items-center p-6">
       <img src="/images/logo-1.png" alt="Logo" class="w-10 h-10" />
-      <nav class="space-x-8" id="menu"></nav>
-      <div class="flex space-x-4 items-center">
+      <nav class="hidden md:space-x-8" id="menu"></nav>
+      <div class="hidden md:flex space-x-4 items-center">
         <a href="#" class="font-herderTitle">Sign up</a>
         <div class="h-8 w-0.5 bg-black"></div>
         <button
@@ -23,8 +23,20 @@
           Connect Wallet
         </button>
       </div>
+      <button id="menu-toggle" class="md:hidden">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
     </header>
-
+ <!-- Mobile Menu -->
+ <nav id="mobile-menu" class="hidden flex flex-col space-y-4 p-6 md:hidden ">
+  <button
+    class="bg-black text-white px-6 py-2 rounded-full font-releway-semi-base"
+  >
+    Connect Wallet
+  </button>
+</nav>
     <!-- Hero Section -->
     <section class="flex my-20">
       <div class="">
